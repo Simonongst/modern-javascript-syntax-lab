@@ -138,3 +138,20 @@ function nounAndAdjective(noun = 'cat', adjective = 'orange'){
 };
 
 nounAndAdjective();
+
+// ! Exercise 9:
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
+
+// Your code here:
+
+pizza === 'tasty' ? console.log('yum') : console.log('yuck');
